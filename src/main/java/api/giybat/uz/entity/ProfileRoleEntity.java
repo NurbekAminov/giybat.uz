@@ -1,5 +1,7 @@
 package api.giybat.uz.entity;
 
+import api.giybat.uz.enums.GeneralStatus;
+import api.giybat.uz.enums.ProfileRole;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
