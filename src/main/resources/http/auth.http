@@ -2,16 +2,19 @@
 POST localhost:8080/auth/registration
 Content-Type:  application/json
 
-{ "name": "Toshmat",
-  "username": "Tosh001",
-  "password": "12345679"
+{ "name": "Nurbek",
+  "username": "aminovnurbek007@gmail.com",
+  "password": "12345"
 }
 
+### Registration Verifivation
+GET http://localhost:8080/auth/registration/verification{profileId}
+
 ### Login
-POST localhost:8080/auth/login
+POST http://localhost:8080/auth/login
 Content-Type:  application/json
 
 {
-  "username": "Ali001",
-  "password": "12345678"
+  "username": "aminovnurbek007@gmail.com",
+  "password": "12345"
 }
